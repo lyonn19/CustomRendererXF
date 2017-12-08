@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using CustomRendererXF.Views;
 using Xamarin.Forms;
 
 namespace CustomRendererXF
@@ -13,7 +13,8 @@ namespace CustomRendererXF
         {
             InitializeComponent();
 
-            MainPage = new CustomRendererXF.MainPage();
+            //MainPage = new CustomRendererXF.MainPage();
+            MainPage = new CustomEntryPage();
         }
 
         protected override void OnStart()
