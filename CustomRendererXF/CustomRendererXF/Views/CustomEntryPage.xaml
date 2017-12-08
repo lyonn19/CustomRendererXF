@@ -4,13 +4,12 @@
              xmlns:customRenderer="clr-namespace:CustomRendererXF.CustomRenderer;assembly=CustomRendererXF"
              x:Class="CustomRendererXF.Views.CustomEntryPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+            
             <Entry Text="Default Android Entry"/>
 
             <customRenderer:RoundedEntry Text="Custom Entry"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
